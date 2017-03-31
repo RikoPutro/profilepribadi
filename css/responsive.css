@@ -1,0 +1,72 @@
+@media all and (max-width: 900px) and (min-width: 768px){
+	.footer > .container{
+		padding-left: 25px;	
+	}
+	.legal > h6{
+		padding-top: 50px;
+		font-size: 80%;
+	  	background-color: #221E1B;
+	}
+	.social-media a  img, .social-media hr {
+		visibility: hidden;
+	}
+	.square {
+		float: left;
+	}
+	.profile-width .width > .container, .form-btm .container{
+		padding: 0 25px;
+	}
+}
+@media all and (max-width: 360px) and (min-width: 320px){
+	p, .width h2, h2, .hoby h5{
+		font-size: 90%;		
+	}
+	.footer > .container{
+		padding-left: 20px;	
+	}
+	.legal > h6{
+		visibility: visible;
+		padding-top: 50px;
+		font-size: 60%;
+	  	background-color: #221E1B;
+
+	}
+	.social-media a  img {
+		max-width: 7%;
+	}
+	.square {
+		float: left;
+	}
+	.profile-width .width > .container, .form-btm .container{
+		padding: 0 20px;
+	}
+	.left-form-all, .right-form-all {
+		display: none;
+	}
+	.porto, .galery {
+		width: 100px;
+		object-fit: cover;
+	}
+	.s-mini{
+		width: 100px;
+	}
+	.row > .foot-right, .row {
+		display: inline;
+		padding: 0;
+	}
+	hr{
+		max-width: 35%;
+	}
+	ul{
+		padding: 0;
+	}
+	nav ul li a {
+		max-width: 50%;
+		display: inline;
+		font-size: 70%;
+		padding: 10;
+	}
+	img.profile{
+		max-width: 40%;
+	}
+}
